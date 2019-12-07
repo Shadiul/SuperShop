@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Supershop</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">MIMs Super Shop</string>
+    <string name="nav_header_subtitle">Buy Efficiently and Eat Healthy Foods</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
