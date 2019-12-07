@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.supershop.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_vegetable_and_fruit"
+        android:name="com.example.supershop.ui.vegetables_and_fruits.VegetablesAndFruitsFragent"
+        android:label="@string/menu_veg_and_fruit"
+        tools:layout="@layout/fragment_vegetables_and_fruits" />
+
+    <fragment
+        android:id="@+id/nav_meat_and_fish"
+        android:name="com.example.supershop.ui.meat_and_fish.MeatAndFishFragment"
+        android:label="@string/menu_meat_and_fish"
+        tools:layout="@layout/fragment_meat_and_fish" />
+
+    <fragment
+        android:id="@+id/nav_grocery_items"
+        android:name="com.example.supershop.ui.grocery_items.GroceryItemsFragment"
+        android:label="@string/menu_grocery_items"
+        tools:layout="@layout/fragment_grocery_items" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.supershop.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>
