@@ -73,7 +73,7 @@ public class HomeFragment extends Fragment {
                     Toast t = Toast.makeText(getActivity(), "Welcome to Meats and Fishes category", Toast.LENGTH_LONG);
                     t.show();
                 } else if (category_name.equals("Grocery Items")) {
-                    Navigation.findNavController(getActivity(), R.id.nav_host_fragment).navigate(R.id.nav_grocery_items);
+
                     Toast t = Toast.makeText(getActivity(), "Welcome to Grocery items category", Toast.LENGTH_LONG);
                     t.show();
                 }

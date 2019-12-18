@@ -1,8 +1,8 @@
 package com.example.supershop;
 
 public class Items {
+private int image;
 
-    private int image;
     private String item_name;
     private String description;
     private String price;
